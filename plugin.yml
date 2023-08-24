@@ -1,5 +1,5 @@
 name: PracticeCore
-main: Ariza/PracticeCore/Main
+main: Ariza\PracticeCore\Main
 version: 1.0
 author: [DeadSafari]
 api: 5.0.0

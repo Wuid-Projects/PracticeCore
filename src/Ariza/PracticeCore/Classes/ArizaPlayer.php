@@ -7,7 +7,6 @@ use pocketmine\player\Player;
 use pocketmine\Server;
 use pocketmine\player\PlayerInfo;
 use pocketmine\nbt\tag\CompoundTag;
-use pocketmine\utils\TextFormat as C;
 use pocketmine\network\mcpe\NetworkSession;
 
 
