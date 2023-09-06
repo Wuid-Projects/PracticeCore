@@ -43,6 +43,7 @@ class PlayerListeners implements Listener {
         });
         $form->setTitle("Select a gamemode");
         $form->addButton("Sumo");
+        $player->sendForm($form);
     }
 
     public function onItemUse(PlayerItemUseEvent $event) {
