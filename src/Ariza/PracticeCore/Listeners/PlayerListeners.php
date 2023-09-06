@@ -37,7 +37,7 @@ class PlayerListeners implements Listener {
         $form = new SimpleForm(function (Player $player, $data) {
             switch ($data){
                 case 0:
-                    $sumoWorld = $player->getServer()->getWorldManager()->getWorldByName("sumo");
+                    $sumoWorld = $player->getServer()->getWorldManager()->getWorldByName("sumoWorld");
                     $player->teleport($sumoWorld->getSafeSpawn());
             }
         });

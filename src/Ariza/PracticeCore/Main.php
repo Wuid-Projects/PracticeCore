@@ -14,6 +14,7 @@ class Main extends PluginBase {
     }
 
     public function onEnable(): void {
+        $this->getServer()->getWorldManager()->loadWorld("sumoWorld");
         $this->getServer()->getPluginManager()->registerEvents(new Listeners\PlayerListeners($this), $this);
         $this->getLogger()->info(C::GREEN . "Enabled!");
     }
